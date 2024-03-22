@@ -1,5 +1,11 @@
-body {
-    background-image: url("./public/baby.gif");
-    background-repeat: repeat;
-    background-position: center;
+#blindr {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-image: url("./public/baby.gif") !important;
+
+    /* background-color: red !important; */
+    background-repeat: repeat !important;
+    background-position: center !important;
 }

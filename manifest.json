@@ -9,7 +9,7 @@
     "48": "public/logo.png",
     "128": "public/logo.png"
   },
-  "permissions": [ "activeTab", "scripting" ],
+  "permissions": [ "activeTab", "scripting", "tabs" ],
   "background": {
     "service_worker": "scripts/background.js"
   },
@@ -24,7 +24,7 @@
   "web_accessible_resources": [
     {
       "resources": [ "public/baby.gif"],
-      "matches": ["<all_urls>"]
+      "matches": ["https://*/*", "http://*/*"]
     }
   ]
 }
