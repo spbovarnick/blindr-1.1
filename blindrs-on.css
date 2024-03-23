@@ -3,7 +3,8 @@
     top: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
-    background-image: url("./public/baby.gif") !important;
+    background-image: url("chrome-extension://__MSG_@@extension_id__/public/baby.gif") !important;
+    z-index: 100 !important;
 
     /* background-color: red !important; */
     background-repeat: repeat !important;
