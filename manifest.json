@@ -9,8 +9,7 @@
     "48": "public/logo.png",
     "128": "public/logo.png"
   },
-  "permissions": [ "scripting", "tabs" ],
-  "host_permissions": ["https://*/*", "http://*/*"],
+  "permissions": [ "scripting", "activeTab" ],
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
